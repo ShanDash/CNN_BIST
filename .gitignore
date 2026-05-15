@@ -1,0 +1,49 @@
+# =============================================================
+# .gitignore for CNN-BIST FPGA Project
+# =============================================================
+
+# ---- Vivado generated files ----
+vivado_project/
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.xpr
+*.bit
+*.ltx
+NA/
+
+# ---- ModelSim / QuestaSim generated files ----
+work/
+transcript
+vsim.wlf
+*.vcd
+*.wlf
+*.vstf
+
+# ---- Report outputs (keep directory, ignore generated reports) ----
+reports/regression/*.log
+reports/*.rpt
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor files ----
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ---- Python (if any helper scripts added later) ----
+__pycache__/
+*.pyc
+*.pyo
